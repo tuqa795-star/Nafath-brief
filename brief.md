@@ -30,6 +30,9 @@ Log4Shell (CVE-2021-44228) was a critical remote code execution vulnerability in
 Resource: CISA - Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
 ## Data
+A Software Bill of Materials (SBOM) is a structured inventory of the components included in a software product. It helps organizations identify dependencies and investigate whether vulnerable components affect their systems. An SBOM should include the supplier name, component name, component version, other unique identifiers, dependency relationships, the SBOM author, and the creation timestamp. Organizations can use this information to improve supply-chain visibility and respond more effectively to newly discovered vulnerabilities.
+
+Resource: CISA - Minimum Elements for a Software Bill of Materials (SBOM) - https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
 
