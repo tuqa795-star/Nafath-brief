@@ -33,9 +33,8 @@ A software Bill of Material (SBOM) is a list of all the parts that make up a pie
 Resource: CISA - Minimum Elements for a Software Bill of Materials (SBOM) - https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
-A common misconception is that storing passwords and API keys in a private code repository makes them safe. In reality, repository access can expand, code can be shared accidentally, and credentials may remain in version history even after removal. The Twelve-Factor App methodology recommends separating deployment configuration from code and storing it in environment variables. Secrets should also be managed with appropriate access controls. This approach reduces accidental exposure, although environment variables alone do not guarantee complete secret protection.
-
-
+Many people think a private repository is enough to keep passwords and API keys safe. It is not. Someone with access can share the code by mistake, or the wrong person can break into an account. Also,a secret you delet can still be found in the repositorys history.  Story secrets in a separate, protected place, let only the write people use them, and replace any key that was exposed . A private repo protects your code, but it dose not protect every secret.
+Source heading: The Twelve-Factor App, Config https://12factor.net/config
 
 ## Open Question
-How can an organization securely manage and rotate application secrets across development, testing, and production environments without interrupting critical services?
+How can teams safely change passwords and API keys in development, testing, and production without stopping important services?
