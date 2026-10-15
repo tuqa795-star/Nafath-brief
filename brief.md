@@ -40,3 +40,4 @@ A common misconception is that storing passwords and API keys in a private code 
 
 
 ## Open Question
+How can an organization securely manage and rotate application secrets across development, testing, and production environments without interrupting critical services?
