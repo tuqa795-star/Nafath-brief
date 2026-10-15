@@ -15,6 +15,9 @@ Adversarial attacks target machine learning systems in different ways. Evasion a
 
 Resource: NIST AI 100-2e2025 - Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - https://csrc.nist.gov/pubs/ai/100/2/e2025/final
 ## Mobile
+The OWASP Mobile Application Security Verification Standard (MASVS) defines security controls for mobile applications. It covers areas such as data storage, cryptography, authentication, network communication, platform interaction, code quality, resilience, and privacy. Developers and security testers use these controls to guide assessments and identify weaknesses. The Mobile Application Security Testing Guide (MASTG) provides practical testing guidance to help verify whether an application meets the relevant controls.
+
+Resource: OWASP MASVS - https://mas.owasp.org/MASVS/
 
 ## Networking
 
