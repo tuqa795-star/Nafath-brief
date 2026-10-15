@@ -8,17 +8,17 @@ Nowadays,many services needs  internet and software System work properly. These 
 
 
 ## Software
-The Twelve-Factor App methodology recommends storing deployment-specific configuration in environment variables rather than hard-coding it in application code. This includes database credentials, service keys, and settings that change between environments. Separating configuration from code makes applications easier to deploy and maintain. It also reduces the risk of exposing secrets through public repositories or shared source code. Sensitive credentials should be managed securely and access should be restricted.
-
+Applications use different settings during deployment,testing and production. The twelve Factor Application methodology recommends keeping application settings separate from the code. It will be exposed the password,API keys when files are shared , if it is written directly in the code .the devloper should build secure methods to protected from attackers and control who can access them.
 Resource: The Twelve-Factor App - Config - https://12factor.net/config
+
 ## AI
-Adversarial attacks target machine learning systems in different ways. Evasion attacks manipulate inputs during use to cause incorrect predictions, while poisoning attacks corrupt training data or the learning process to influence model behavior. Privacy attacks may reveal information about training data, and misuse attacks can exploit generative AI capabilities. Organizations should assess these risks throughout the AI lifecycle and apply suitable testing, monitoring, and mitigation measures.
-
+AI system can be attached in different ways . In an evasion attack, someone changes the input to make AI give wrong answer or result. In data poisoning attack, someone used to train the AI by changes the data ,which can affect what AI learns. And some attackers try to find private information in training data .So testing AI system can help to protect the data and reduce these risks.
 Resource: NIST AI 100-2e2025 - Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - https://csrc.nist.gov/pubs/ai/100/2/e2025/final
-## Mobile
-The OWASP Mobile Application Security Verification Standard (MASVS) defines security controls for mobile applications. It covers areas such as data storage, cryptography, authentication, network communication, platform interaction, code quality, resilience, and privacy. Developers and security testers use these controls to guide assessments and identify weaknesses. The Mobile Application Security Testing Guide (MASTG) provides practical testing guidance to help verify whether an application meets the relevant controls.
 
+## Mobile
+Mobile applications may store sensitive information, it need to be secure from attackers. The OWASP Mobile application security verification Standard MASVS provides security requirements. These include protecting stored data , secure communication over  the internet and checking user identities . It helps identify weaknesses.
 Resource: OWASP MASVS - https://mas.owasp.org/MASVS/
+
 
 ## Networking
 BGP route hijacking occurs when an autonomous system announces incorrect or unauthorized IP prefixes, potentially causing internet traffic to follow an unintended path. Resource Public Key Infrastructure (RPKI) supports Route Origin Validation by checking whether a route announcement is authorized by the holder of the IP address resources. However, RPKI origin validation does not verify the entire route path or prevent every attack, including certain attacks involving a legitimate origin AS.
