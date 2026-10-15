@@ -3,3 +3,4 @@
 -research: networking, cybersecurity, data	f28219b
 -research: software, ai, mobile	c4c664b
 -revise: overview	992fdd6
+-skeleton: NAFATH-V4	4661d69
