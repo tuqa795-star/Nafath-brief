@@ -25,6 +25,9 @@ BGP route hijacking occurs when an autonomous system announces incorrect or unau
 Resource: RFC 6811 - BGP Prefix Origin Validation - https://www.rfc-editor.org/rfc/rfc6811
 
 ## Cybersecurity
+Log4Shell (CVE-2021-44228) was a critical remote code execution vulnerability in Apache Log4j 2, a widely used Java logging library. It could allow attackers to execute code on vulnerable systems when affected logging functionality processed malicious input. Its severity came from its potential for remote exploitation and the widespread use of the library. Organizations were advised to identify affected assets, upgrade to patched versions, apply temporary mitigations when necessary, and verify remediation.
+
+Resource: CISA - Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
 ## Data
 
