@@ -7,9 +7,13 @@ A secure software supply chain requires more than protecting the final applicati
 
 
 ## Software
+The Twelve-Factor App methodology recommends storing deployment-specific configuration in environment variables rather than hard-coding it in application code. This includes database credentials, service keys, and settings that change between environments. Separating configuration from code makes applications easier to deploy and maintain. It also reduces the risk of exposing secrets through public repositories or shared source code. Sensitive credentials should be managed securely and access should be restricted.
 
+Resource: The Twelve-Factor App - Config - https://12factor.net/config
 ## AI
+Adversarial attacks target machine learning systems in different ways. Evasion attacks manipulate inputs during use to cause incorrect predictions, while poisoning attacks corrupt training data or the learning process to influence model behavior. Privacy attacks may reveal information about training data, and misuse attacks can exploit generative AI capabilities. Organizations should assess these risks throughout the AI lifecycle and apply suitable testing, monitoring, and mitigation measures.
 
+Resource: NIST AI 100-2e2025 - Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - https://csrc.nist.gov/pubs/ai/100/2/e2025/final
 ## Mobile
 
 ## Networking
