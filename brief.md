@@ -21,18 +21,15 @@ Resource: OWASP MASVS - https://mas.owasp.org/MASVS/
 
 
 ## Networking
-BGP route hijacking occurs when an autonomous system announces incorrect or unauthorized IP prefixes, potentially causing internet traffic to follow an unintended path. Resource Public Key Infrastructure (RPKI) supports Route Origin Validation by checking whether a route announcement is authorized by the holder of the IP address resources. However, RPKI origin validation does not verify the entire route path or prevent every attack, including certain attacks involving a legitimate origin AS.
-
+BGP it helps network send information where internet traffic should go.The trouble starts with route hijacking when a network announces routes it has no right to. Traffic can end up with wrong place or cause a service to stop working . PRKI helps check whether allowed to announced a certine block of IP addresses.  It can't stop every kind of routing attack,and it can't verify the whole path your traffic takes.
 Resource: RFC 6811 - BGP Prefix Origin Validation - https://www.rfc-editor.org/rfc/rfc6811
 
 ## Cybersecurity
-Log4Shell (CVE-2021-44228) was a critical remote code execution vulnerability in Apache Log4j 2, a widely used Java logging library. It could allow attackers to execute code on vulnerable systems when affected logging functionality processed malicious input. Its severity came from its potential for remote exploitation and the widespread use of the library. Organizations were advised to identify affected assets, upgrade to patched versions, apply temporary mitigations when necessary, and verify remediation.
-
+Log4Shell (CVE-2021-44228) was a serious flaw in Apache Log4j 2,Log4Shell a java tool that saves records of what aprogram dose. Attackers could trick it into running their own harmful code in computer. This was a huge problem because so many programs used Log4j. Companies had to find every place they used it, inststal the fixed version, and then test that the problem was really gone.
 Resource: CISA - Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
 ## Data
-A Software Bill of Materials (SBOM) is a structured inventory of the components included in a software product. It helps organizations identify dependencies and investigate whether vulnerable components affect their systems. An SBOM should include the supplier name, component name, component version, other unique identifiers, dependency relationships, the SBOM author, and the creation timestamp. Organizations can use this information to improve supply-chain visibility and respond more effectively to newly discovered vulnerabilities.
-
+A software Bill of Material (SBOM) is a list of all the parts that make up a piece of software, like the ingredients on a food label. It shows each parts name , version,and who made it , and how the parts are linked. If a security problem is found in one part, a company can check the list to see if it 8s software uses that part . If the list kept up to date, developer can quickly find what is affected and decide what to fix or replace.
 Resource: CISA - Minimum Elements for a Software Bill of Materials (SBOM) - https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
